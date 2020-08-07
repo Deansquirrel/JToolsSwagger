@@ -7,7 +7,7 @@
   </parent>
   <groupId>com.yuansong.tools</groupId>
   <artifactId>tools-swagger</artifactId>
-  <!-- <version>0.0.1</version>  -->
+  <!--<version>0.0.1</version>  -->
   <version>0.0.0</version>
   <name>tools-swagger</name>
   <description>tools swagger</description>
@@ -75,7 +75,7 @@
     -->
     
     <build>  
-    <finalName>jtools-task-${project.artifactId}-${project.version}</finalName> 
+    <finalName>${project.artifactId}-${project.version}</finalName> 
     <plugins>
         <plugin>
             <artifactId>maven-deploy-plugin</artifactId>
