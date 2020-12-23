@@ -1,7 +1,0 @@
-{"properties": [
-  {
-    "name": "swagger",
-    "type": "com.yuansong.toos.swagger.SwaggerConfig",
-    "description": "A description for 'swagger'"
-  }
-]}

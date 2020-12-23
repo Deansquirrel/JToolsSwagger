@@ -1,4 +1,4 @@
-package com.yuansong.toos.swagger;
+package com.yuansong.tools.swagger;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -21,7 +21,7 @@ public class SwaggerBean {
 	private static final String defaultVersion = "";
 	
 	@Autowired
-	private SwaggerConfig swaggerConfig;
+	private ISwaggerConfig swaggerConfig;
 	
 	@Bean
 	public Docket createAdminRestApi() {
