@@ -4,8 +4,8 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.yuansong.tools</groupId>
   <artifactId>tools-swagger</artifactId>
-  <version>0.0.3</version>
-  <!--<version>0.0.0</version> -->
+  <!--<version>0.0.3</version> -->
+  <version>0.0.0</version>
   <name>tools-swagger</name>
   <description>tools swagger</description>
 
