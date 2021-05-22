@@ -36,8 +36,8 @@ public class SwaggerBean {
 			Tag tag = swaggerConfig.getControllerTags()[0];
 			if (length > 1) {
 				Tag[] tags = new Tag[length - 1];
-				for (int i = 0; i < length; i++) {
-					tags[i] = swaggerConfig.getControllerTags()[i + 1];
+				for (int i = 1; i < length; i++) {
+					tags[i - 1] = swaggerConfig.getControllerTags()[i];
 				}
 				docket.tags(tag, tags);
 			} else {
