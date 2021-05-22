@@ -1,5 +1,7 @@
 package com.yuansong.tools.swagger;
 
+import springfox.documentation.service.Tag;
+
 public interface ISwaggerConfig {
 	
 	/**
@@ -31,5 +33,13 @@ public interface ISwaggerConfig {
 	 * @return
 	 */
 	public String getBasePackage();
+	
+	/**
+	 * 
+	 * @return
+	 */
+	default public Tag[] getControllerTags() {
+		return null;
+	}
 
 }
